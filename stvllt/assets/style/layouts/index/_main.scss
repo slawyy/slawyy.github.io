@@ -1,0 +1,167 @@
+.main {
+  height: 100vh;
+  // position: relative;
+  @media screen and (max-width: 1000px){
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 700px){
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .wrapper {
+    position: relative;
+    height: 500px;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+      .btn-group {
+        max-width: 300px;
+        margin: 0px auto;
+      }
+      a,button {
+        width: 50px;
+        height: inherit;
+      }
+    }
+    h4 {
+      color: white;
+      font-family: "Lovely";
+      font-weight: 100;
+      font-size: 2rem;
+      padding: 50px 400px 0;
+
+      @media screen and (max-width: 700px){
+        font-size: 1rem;
+        padding: 50px 165px 0;
+      }
+    } 
+    .btn-group {
+      height: 40px;
+      max-width: 500px;
+      margin: 0px auto;
+      padding: 50px;
+      @media screen and (max-width: 700px){
+        max-width: 350px;
+        margin: 0 auto;
+      }
+      .idp2 {
+        padding: 0;
+        text-align: center;
+      }
+      a {
+        font-family: "Lovely";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        position: absolute;
+        width: 150px;
+        height: inherit;
+        font-size: 1.2em;
+        color: white;
+        font-weight: 600;
+        border-radius: 30px;
+        border: 2px solid white;
+        outline: none;
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        background: none;
+
+        @media screen and (max-width: 700px){
+          width: 100px;
+        }
+      }
+      button {
+        font-family: "Lovely";
+        margin: 0 0 0 200px;
+        position: absolute;
+        width: 150px;
+        height: inherit;
+        font-size: 1.2em;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 30px;
+        border: 2px solid white;
+        outline: none;
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        background: none;
+
+        @media screen and (max-width: 700px){
+          width: 100px;
+          margin: 0 0 0 145px;
+        }
+      } 
+    }
+  }
+    h1 {
+      padding: 60px 0 0 60px;
+      color: rgb(255, 255, 255);
+      font-family: $font2;
+      font-size: 6rem;
+
+      @media screen and (max-width: 700px){
+        max-width: 500px;
+        margin: 0 auto;
+        font-size: 3rem;
+      }
+    }
+    p {
+      padding: 0 0 0 60px;
+      color: rgb(255, 255, 255);
+      font-family: $font2;
+      font-size: 3rem;
+    
+      // &:after {
+      //   content: "";
+      //   position: absolute;
+      //   width: 180px;
+      //   height: 3px;
+      //   background: white;
+      //   border-radius: 25px;
+      //   top: 0%;
+      //   left: 30%;
+      // }
+
+      @media screen and (max-width: 700px){
+        max-width: 500px;
+        margin: 0 auto;
+        font-size: 1.5rem;
+      }
+    }
+    span {
+      color: rgb(255, 255, 255);
+      font-family: $font1;
+      font-size: 5rem;
+
+      @media screen and (max-width: 700px){
+        font-size: 3rem;
+      }
+        &:after {
+        content: "";
+        position: absolute;
+        width: 180px;
+        height: 3px;
+        background: white;
+        border-radius: 25px;
+        top: 29%;
+        left: 50%;
+
+      @media screen and (max-width: 1400px){
+        top: 44%;
+        left: 71.2%;
+      }
+      @media screen and (max-width: 1000px){
+          top: 21%;
+          left: 68%;
+      }
+    }
+  }
+  .idp {
+      font-size: 1.2rem;
+      @media screen and (max-width: 700px){
+        font-size: 0.8rem;
+      }
+    }
+
