@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Valentine";
+    src: url(../font/Valentine.ttf);
+}
+@font-face {
+    font-family: "Lovely";
+    src: url(../font/LovelyValentine.ttf);
+}
+@font-face {
+    font-family: "Chasing";
+    src: url(../font/ChasingHearts.ttf);
+}
+@font-face {
+    font-family: "Heart";
+    src: url(../font/BonusHearts.ttf);
+}
+body {
+    background-color: pink;
+}
+
+$font1 : "Valentine";
+$font2 : "Lovely";
