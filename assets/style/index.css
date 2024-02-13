@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Valentine";
+  src: url(../font/Valentine.ttf);
+}
+@font-face {
+  font-family: "Lovely";
+  src: url(../font/LovelyValentine.ttf);
+}
+@font-face {
+  font-family: "Chasing";
+  src: url(../font/ChasingHearts.ttf);
+}
+@font-face {
+  font-family: "Heart";
+  src: url(../font/BonusHearts.ttf);
+}
+body {
+  background-color: pink;
+}
+
+.main {
+  height: 100vh;
+}
+@media screen and (max-width: 1000px) {
+  .main {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}
+.main .wrapper {
+  position: relative;
+  height: 500px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.main .wrapper h4 {
+  color: white;
+  font-family: "Lovely";
+  font-weight: 100;
+  font-size: 2rem;
+  padding: 50px 400px 0;
+}
+.main .wrapper .btn-group {
+  height: 40px;
+  max-width: 500px;
+  margin: 0px auto;
+  padding: 50px;
+}
+.main .wrapper .btn-group .idp2 {
+  padding: 0;
+  text-align: center;
+}
+.main .wrapper .btn-group a {
+  font-family: "Lovely";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  position: absolute;
+  width: 150px;
+  height: inherit;
+  font-size: 1.2em;
+  color: white;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 2px solid white;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background: none;
+}
+.main .wrapper .btn-group button {
+  font-family: "Lovely";
+  margin: 0 0 0 200px;
+  position: absolute;
+  width: 150px;
+  height: inherit;
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 2px solid white;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background: none;
+}
+.main h1 {
+  padding: 60px 0 0 60px;
+  color: rgb(255, 255, 255);
+  font-family: "Lovely";
+  font-size: 6rem;
+}
+.main p {
+  padding: 0 0 0 60px;
+  color: rgb(255, 255, 255);
+  font-family: "Lovely";
+  font-size: 3rem;
+}
+.main span {
+  color: rgb(255, 255, 255);
+  font-family: "Valentine";
+  font-size: 5rem;
+}
+.main span:after {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 3px;
+  background: white;
+  border-radius: 25px;
+  top: 29%;
+  left: 50%;
+}
+@media screen and (max-width: 1400px) {
+  .main span:after {
+    top: 41%;
+    left: 49%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main span:after {
+    top: 21%;
+    left: 68%;
+  }
+}
+.main .idp {
+  font-size: 1.2rem;
+}
+
+.main2 {
+  padding: 25px 200px 0;
+  height: 100vh;
+}
+.main2 p {
+  color: white;
+  font-family: "Chasing";
+  font-size: 3rem;
+}
+.main2 span {
+  font-family: "Heart";
+  font-size: 5rem;
+}
+.main2 img {
+  height: 12%;
+  width: 7%;
+}/*# sourceMappingURL=index.css.map */
